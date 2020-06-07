@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<title>Divergent Thinking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/header.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="keywords" content="footer, address, phone, icons" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="header0">
+<div class="header1">
+<img src="icons/d.png"  width="100" height="90" border="0">
+<img class="img3" src="icons/t.png"  width="70" height="85" border="0">
+<h1>Divergent    thinking</h1>
+</div>
+</div>
+<div class="body">
+<div class="topnav">
+<a  href="about.html">Home</a>
+<a  href="about.html">About Us</a>
+<a  href="about.html">View All</a>
+<form class="example" action="php/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+<div class="container">
+<div id="slideshow">
+<img  src="images/banner.jpg"  width="100%" height="310" border="0">
+  <div class="elemnt"><span>The future belongs to those who believe in the beauty of their dreams.</span></div>
+  <div class="elemnt1"><span>You may be one person to the world but you may also be the world to one person.</span></div>
+  <div class="elemnt2"><span>The best way to pay for a lovely moment is to enjoy it</span></div>
+  <div class="elemnt3"><span>Whenever you are creating beauty around you, you are restoring your own soul.</span></div>
+  </div>
+</div>
+<div class="topnav">
+<button class="open-button" onclick="openForm()">Add an Object and Use</button>
+<div class="form-popup" id="myForm">
+  <form action="php/action_page.php"  method="post" class="form-container">
+    <h1>Add Object</h1>
+	
+	<div id="profile-container">
+   <image id="profileImage" src="icons/img_avatar.png" />
+	</div>
+	<input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+	
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name Of Object" name="name" required>
+
+    <label for="use"><b>Uses</b></label>
+    <input type="text" placeholder="Enter one Use" name="uses" required>
+
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+$("#profileImage").click(function(e) {
+    $("#imageUpload").click();
+});
+
+function fasterPreview( uploader ) {
+    if ( uploader.files && uploader.files[0] ){
+          $('#profileImage').attr('src', 
+             window.URL.createObjectURL(uploader.files[0]) );
+    }
+}
+
+$("#imageUpload").change(function(){
+    fasterPreview( this );
+});
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</div>
+<div class="container">
+<div class="outer">
+<div class="one"><img src="icons/cup.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+<div class="one"><img src="icons/d.png"  width="100" height="90" border="0">
+<h1>Cup</h1>
+<h2>Uses</h2>
+<li>drinking</li>
+<li>drinking</li>
+<li>drinking</li>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer-distributed">
+ 
+			<div class="footer-left">
+			<img src="icons/d.png"  width="100" height="90" border="0">
+			<img class="img3" src="icons/t.png"  width="30" height="85" border="0">
+				<h3>About<span>Divergent Thinking</span></h3>
+ 
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+ 
+				<p class="footer-company-name">Divergent Thinking © 2020.</p>
+			</div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>P.O BOX 544,
+						</span>
+						104506-Nairobi,Kenya</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+254758888967</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="https://mail.google.com/">mikegitonga6@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About</span>
+					Here you can add as many uses of an object as you can. This helps us build a vast database rich in alaternative uses of the object.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
